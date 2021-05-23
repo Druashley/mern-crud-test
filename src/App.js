@@ -32,7 +32,7 @@ function App() {
   };
 
   const deleteFood = (id) => {
-    Axios.delete(`https://mern-crud-test-dru.herokuapp.com/${id}`);
+    Axios.delete(`https://mern-crud-test-dru.herokuapp.com/delete/${id}`);
   };
 
   return (
